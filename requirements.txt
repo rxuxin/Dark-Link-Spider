@@ -1,0 +1,5 @@
+with open("requirements.txt", "w") as f:
+    f.write("requests>=2.25.1\n")
+    f.write("urllib3>=1.26.5\n")
+    f.write("pandas>=1.1.5\n")
+    f.write("openpyxl>=3.0.7\n")
